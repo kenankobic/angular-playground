@@ -1,0 +1,62 @@
+<app-paragraph [@fadeInOutAnimation] [title]="'ANGULAR.PIPES' | translate">
+    <div class="heading-3">
+        {{ 'ANGULAR.DATE_TIME_PIPE' | translate }}
+    </div>
+    <div class="text-justify">
+        {{ 'ANGULAR.DATE_TIME_PIPE_DESCRIPTION' | translate }}
+    </div>
+    <hr class="hr">
+    <div class="flex flex-col xl:flex-row justify-between gap-x-4">
+        <div class="w-full xl:w-2/5">
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.EXAMPLE' | translate" [type]="'HTML'">
+                    <pre><code [highlight]="dateTimePipeExample" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+                </app-small-code-snippet>
+            </div>
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.EXAMPLE' | translate" [type]="'TS'">
+                    <pre><code [highlight]="dateTimePipeConsoleLog" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+                </app-small-code-snippet>
+            </div>
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.OUTPUT' | translate">
+                    <pre><code [highlight]="exampleDate | dateTime" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+                </app-small-code-snippet>
+            </div>
+        </div>
+        <div class="w-full xl:w-3/5 border p-1 border-neutral-200 rounded-md h-full">
+            <pre><code [highlight]="dateTimePipeCode" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+        </div>
+    </div>
+    <hr class="hr">
+    <div class="heading-3">
+        {{ 'ANGULAR.SAFE_HTML_PIPE' | translate }}
+    </div>
+    <div class="text-justify">
+        {{ 'ANGULAR.SAFE_HTML_PIPE_DESCRIPTION' | translate }}
+    </div>
+    <hr class="hr">
+    <div class="flex flex-col xl:flex-row justify-between gap-x-4">
+        <div class="w-full xl:w-2/5">
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.EXAMPLE' | translate" [type]="'HTML'">
+                    <pre><code [highlight]="safeHtmlPipeExampleHTML" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+                </app-small-code-snippet>
+            </div>
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.EXAMPLE' | translate" [type]="'TS'">
+                    <pre><code [highlight]="safeHtmlPipeExampleTS" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+                </app-small-code-snippet>
+            </div>
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.OUTPUT' | translate">
+                    <div class="px-2" [innerHTML]="safeHtmlPipeExample"></div>
+                </app-small-code-snippet>
+            </div>
+        </div>
+        <div class="w-full xl:w-3/5 border p-1 border-neutral-200 rounded-md h-full">
+            <pre><code [highlight]="safeHtmlPipeCode" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+        </div>
+    </div>
+
+</app-paragraph>

@@ -1,6 +1,45 @@
 {
-    "SHARED": {
-        "LOGIN": "Prijava",
-        "LOGOUT": "Odjava"
-    }
+  "SHARED": {
+    "LOGIN": "Prijava",
+    "LOGOUT": "Odjava",
+    "COMING_SOON": "Uskoro",
+    "INTRO": "Uvod",
+    "EXAMPLE": "Primjer",
+    "OUTPUT": "Output",
+    "CLOSE": "Odustani",
+    "CONFIRM": "Potvrdi",
+    "CONTINUE_QUESTION": "Jeste li sigurni da želite nastaviti?"
+  },
+  "HOME": {
+    "WELCOME": "Dobrodošli!"
+  },
+  "MENU": {
+    "ANGULAR": "Angular",
+    "ABOUT_ME": "O meni",
+    "HOME": "Početna",
+    "REACT": "React"
+  },
+  "LANGUAGE": {
+    "bs_BA": "Bosanski",
+    "en_US": "English"
+  },
+  "ANGULAR": {
+    "INTRO": {
+      "TEXT_1": "Angular je open-source framework za web aplikacije koji je dizajnirao Google. Zasnovan je na TypeScript-u i široko je korišten. Nudi veliku količinu ugrađenih funkcija koje čine front-end razvoj mnogo lakšim.",
+      "TEXT_2": "Kada razvijam nove web aplikacije, obično moram dizajnirati neke feature koje sam već napravio na nekom drugom projektu u prošlosti. Pošto je to lakše i štedi vrijeme, kopam po kodu prethodnih projekata, pronalazim te feature, kopiram ih u svoj novi projekat i mijenjam ih da odgovaraju novom projektu. Napravio sam ovu stranicu kako bih lakše pronašao te dijelove koda."
+    },
+    "PIPES": "Pipe-ovi",
+    "DATE_TIME_PIPE": "DateTime pipe",
+    "DATE_TIME_PIPE_DESCRIPTION": "Koristi se za pretvaranje formata YYYY-MM-DDTHH:mm:ss u DD.MM.YYYY. HH:mm.",
+    "SAFE_HTML_PIPE": "SafeHtml pipe",
+    "SAFE_HTML_PIPE_DESCRIPTION": "Koristi se za prikaz HTML koda primljenog od backend-a kao HTML elementi. Obično sam ga koristio za prikaz predložaka email-a ili novinskih članaka.",
+    "COMPONENTS": "Komponente",
+    "STYLES": "Stilovi",
+    "ANIMATIONS": "Animacije",
+    "INPUT_DIALOG_COMPONENT": "InputDialog komponenta",
+    "INPUT_DIALOG_COMPONENT_DESCRIPTION": "Koristi se za prikazivanje kratke poruke (uglavnom pitanje) sa dvije akcije: \"Potvrdi\" i \"Odustani\".",
+    "FADE_IN_OUT_ANIMATION": "FadeInOut animacija",
+    "FADE_IN_OUT_ANIMATION_DESCRIPTION": "Koristi se za smooth fade animaciju pri učitavanju stranice.",
+    "TOGGLE_FADE_IN_OUT_ANIMATION": "Toggle fadeInOutAnimation"
+  }
 }

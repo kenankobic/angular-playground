@@ -1,9 +1,16 @@
 import { Routes } from "@angular/router";
 import { PlaygroundRoutes } from "../core/constants/playgroud-routes";
 import { PublicGuard } from "../core/guards/public.guard";
+import { AboutMeComponent } from "./about-me/about-me.component";
+import { AngularAnimationsComponent } from "./angular/angular-animations/angular-animations.component";
+import { AngularComponentsComponent } from "./angular/angular-components/angular-components.component";
+import { AngularPipesComponent } from "./angular/angular-pipes/angular-pipes.component";
+import { AngularStylesComponent } from "./angular/angular-styles/angular-styles.component";
+import { AngularComponent } from "./angular/angular/angular.component";
 import { LoginComponent } from "./auth/login/login.component";
-import { RegistrationComponent } from "./auth/registration/registration.component";
+import { HomepageComponent } from "./homepage/homepage.component";
 import { PublicLayoutComponent } from "./layout/public-layout/public-layout.component";
+import { ReactComponent } from "./react/react.component";
 
 export const PublicRoutes: Routes = [
     {
@@ -14,19 +21,52 @@ export const PublicRoutes: Routes = [
         children: [
             {
                 path: '',
-                pathMatch: 'full',
-                redirectTo: PlaygroundRoutes.LOGIN
+                component: HomepageComponent,
+                data: { performRedirection: false }
             },
             {
                 path: PlaygroundRoutes.LOGIN,
                 component: LoginComponent,
-                data: { performRedirection: true }
+                data: { performRedirection: false }
             },
             {
-                path: PlaygroundRoutes.REGISTRATION,
-                component: RegistrationComponent,
-                data: { performRedirection: true }
+                path: PlaygroundRoutes.ANGULAR,
+                component: AngularComponent,
+                data: { performRedirection: false },
+                children: [
+                    {
+                        path: PlaygroundRoutes.PIPES,
+                        component: AngularPipesComponent,
+                        data: { performRedirection: false }
+                    },
+                    {
+                        path: PlaygroundRoutes.COMPONENTS,
+                        component: AngularComponentsComponent,
+                        data: { performRedirection: false }
+                    },
+                    {
+                        path: PlaygroundRoutes.ANIMATIONS,
+                        component: AngularAnimationsComponent,
+                        data: { performRedirection: false }
+                    },
+                    {
+                        path: PlaygroundRoutes.STYLES,
+                        component: AngularStylesComponent,
+                        data: { performRedirection: false }
+                    },
+                ]
             },
+            {
+                path: PlaygroundRoutes.REACT,
+                component: ReactComponent,
+                data: { performRedirection: false }
+            },
+            {
+                path: PlaygroundRoutes.ABOUT_ME,
+                component: AboutMeComponent,
+                data: { performRedirection: false }
+            },
+
         ]
     },
 ]

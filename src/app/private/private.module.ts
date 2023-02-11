@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { SharedModule } from '../shared/shared.module';
+import { PrivateLayoutComponent } from './layout/private-layout/private-layout.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PrivateLayoutComponent
+  ],
   imports: [
-    CommonModule
+    SharedModule
   ]
 })
 export class PrivateModule { }

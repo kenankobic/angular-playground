@@ -1,0 +1,13 @@
+<div class="border border-indigo-600 rounded-md flex flex-col">
+    <div *ngIf="title || type" class="bg-indigo-600 px-2 pb-1 flex justify-between items-center">
+        <div *ngIf="title" class="text-neutral-200 text-lg">
+            {{ title }}
+        </div>
+        <div *ngIf="type" class="text-neutral-300 font-medium text-sm">
+            {{ type }}
+        </div>
+    </div>
+    <div class="p-1">
+        <ng-content #codeContent></ng-content>
+    </div>
+</div>

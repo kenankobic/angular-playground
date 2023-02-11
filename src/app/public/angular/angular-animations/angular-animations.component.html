@@ -1,0 +1,41 @@
+<app-paragraph [@fadeInOutAnimation] [title]="'ANGULAR.ANIMATIONS' | translate">
+    <div class="heading-3">
+        {{ 'ANGULAR.FADE_IN_OUT_ANIMATION' | translate }}
+    </div>
+    <div class="text-justify">
+        {{ 'ANGULAR.FADE_IN_OUT_ANIMATION_DESCRIPTION' | translate }}
+    </div>
+    <hr class="hr">
+    <div class="flex flex-col xl:flex-row justify-between gap-x-4">
+        <div class="w-full xl:w-2/5">
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.EXAMPLE' | translate" [type]="'HTML'">
+                    <pre><code [highlight]="fadeInOutAnimationExampleHTML" [lineNumbers]="true" [languages]="['html']"></code></pre>
+                </app-small-code-snippet>
+            </div>
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.EXAMPLE' | translate" [type]="'TS'">
+                    <pre><code [highlight]="fadeInOutAnimationExampleTS" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+                </app-small-code-snippet>
+            </div>
+            <div class="mb-4">
+                <app-small-code-snippet [title]="'SHARED.EXAMPLE' | translate">
+                    <div class="my-2">
+                        <span (click)="showFadeInOutAnimationExample = !showFadeInOutAnimationExample"
+                            class="bg-indigo-500 text-neutral-200 font-medium tracking-wider px-6 py-1.5 rounded-sm cursor-pointer duration-200 hover:bg-indigo-600 hover:text-white">
+                            {{ 'ANGULAR.TOGGLE_FADE_IN_OUT_ANIMATION' | translate }}
+                        </span>
+                    </div>
+                    <div class="my-2" *ngIf="showFadeInOutAnimationExample" [@fadeInOutAnimation]>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nemo, consectetur tempore nam
+                        assumenda cumque possimus! Doloremque excepturi minima mollitia, animi similique adipisci sit,
+                        explicabo quos amet dignissimos iure necessitatibus?
+                    </div>
+                </app-small-code-snippet>
+            </div>
+        </div>
+        <div class="w-full xl:w-3/5 border p-1 border-neutral-200 rounded-md h-full">
+            <pre><code [highlight]="fadeInOutAnimationExampleCode" [lineNumbers]="true" [languages]="['typescript']"></code></pre>
+        </div>
+    </div>
+</app-paragraph>

@@ -38,6 +38,7 @@ export class AuthService {
   }
 
   setToken(token: Token): void {
+    console.log('token', token)
     if (!token) return;
     this.storageService.removeData(STORAGE_TOKEN);
     this.storageService.storeData(STORAGE_TOKEN, token);

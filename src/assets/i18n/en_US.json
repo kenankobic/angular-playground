@@ -1,6 +1,45 @@
 {
-    "SHARED": {
-        "LOGIN": "Login",
-        "LOGOUT": "Logout"
-    }
+  "SHARED": {
+    "LOGIN": "Sign in",
+    "LOGOUT": "Sign out",
+    "COMING_SOON": "Coming soon",
+    "INTRO": "Introduction",
+    "EXAMPLE": "Example",
+    "OUTPUT": "Output",
+    "CLOSE": "Close",
+    "CONFIRM": "Confirm",
+    "CONTINUE_QUESTION": "Are you sure you want to continue?"
+  },
+  "HOME": {
+    "WELCOME": "Welcome!"
+  },
+  "MENU": {
+    "ANGULAR": "Angular",
+    "ABOUT_ME": "About me",
+    "HOME": "Home",
+    "REACT": "React"
+  },
+  "LANGUAGE": {
+    "bs_BA": "Bosanski",
+    "en_US": "English"
+  },
+  "ANGULAR": {
+    "INTRO": {
+      "TEXT_1": "Angular is a widely-used, TypeScript-based, open-source web application framework designed by Google. It offers a large amount of built-in features which makes front-end development much easier.",
+      "TEXT_2": "When developing new web applications, I usually have to design some features that I have already built in some project in the past. Since it is easier and saves time, I dig through the code of my previous projects, find those features, copy them to my new project and change them to fit the new project. I created this page to help me find those pieces of code easier."
+    },
+    "PIPES": "Pipes",
+    "DATE_TIME_PIPE": "DateTime pipe",
+    "DATE_TIME_PIPE_DESCRIPTION": "Used for converting YYYY-MM-DDTHH:mm:ss format to DD.MM.YYYY. HH:mm.",
+    "SAFE_HTML_PIPE": "SafeHtml pipe",
+    "SAFE_HTML_PIPE_DESCRIPTION": "Used for displaying HTML code recieved from backend as HTML elements. I usually used it for displaying email templates or news articles.",
+    "COMPONENTS": "Components",
+    "STYLES": "Styles",
+    "ANIMATIONS": "Animations",
+    "INPUT_DIALOG_COMPONENT": "InputDialog component",
+    "INPUT_DIALOG_COMPONENT_DESCRIPTION": "Used for displaying a short message (usually a question) with two actions: \"Confirm\" and \"Close\".",
+    "FADE_IN_OUT_ANIMATION": "FadeInOut animation",
+    "FADE_IN_OUT_ANIMATION_DESCRIPTION": "Used for a smooth fade animation when loading page.",
+    "TOGGLE_FADE_IN_OUT_ANIMATION": "Toggle fadeInOutAnimation"
+  }
 }
