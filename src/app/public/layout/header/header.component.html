@@ -1,20 +1,26 @@
 <div class="flex justify-between items-center h-20 container mx-auto">
-    <img class="h-10 cursor-pointer" src="assets/img/logo-no-background.png" alt="Playground" [routerLink]="PlaygroundRoutes.HOME">
+    <img class="h-10 cursor-pointer" src="assets/img/logo-no-background.png" alt="Playground"
+        [routerLink]="PlaygroundRoutes.HOME">
     <div class="flex justify-start">
-        <div class="text-neutral-200 tracking-wide text-lg mx-4 cursor-pointer font-medium hover:text-indigo-400 duration-200" [routerLink]="PlaygroundRoutes.HOME">
+        <div class="text-neutral-200 tracking-wide text-lg mx-4 cursor-pointer font-medium hover:text-indigo-400 duration-200"
+            [routerLink]="PlaygroundRoutes.HOME">
             {{ 'MENU.HOME' | translate }}
         </div>
-        <div class="text-neutral-200 tracking-wide text-lg mx-4 cursor-pointer font-medium hover:text-indigo-400 duration-200" [routerLink]="PlaygroundRoutes.ANGULAR">
+        <div class="text-neutral-200 tracking-wide text-lg mx-4 cursor-pointer font-medium hover:text-indigo-400 duration-200"
+            [routerLink]="PlaygroundRoutes.ANGULAR">
             {{ 'MENU.ANGULAR' | translate }}
         </div>
-        <div class="text-neutral-200 tracking-wide text-lg mx-4 cursor-pointer font-medium hover:text-indigo-400 duration-200" [routerLink]="PlaygroundRoutes.REACT">
+        <div class="text-neutral-200 tracking-wide text-lg mx-4 cursor-pointer font-medium hover:text-indigo-400 duration-200"
+            [routerLink]="PlaygroundRoutes.REACT">
             {{ 'MENU.REACT' | translate }}
         </div>
-        <div class="text-neutral-200 tracking-wide text-lg mx-4 cursor-pointer font-medium hover:text-indigo-400 duration-200" [routerLink]="PlaygroundRoutes.ABOUT_ME">
+        <div class="text-neutral-200 tracking-wide text-lg mx-4 cursor-pointer font-medium hover:text-indigo-400 duration-200"
+            [routerLink]="PlaygroundRoutes.ABOUT_ME">
             {{ 'MENU.ABOUT_ME' | translate }}
         </div>
     </div>
-    <div class="bg-indigo-500 text-neutral-200 font-medium tracking-wider px-6 py-1.5 rounded-sm cursor-pointer duration-200 hover:bg-indigo-600 hover:text-white">
+    <div class="bg-indigo-500 text-neutral-200 font-medium tracking-wider px-6 py-1.5 rounded-sm cursor-pointer duration-200 hover:bg-indigo-600 hover:text-white"
+        [routerLink]="PlaygroundRoutes.LOGIN">
         {{ 'SHARED.LOGIN' | translate }}
     </div>
 </div>
