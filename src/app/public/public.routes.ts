@@ -1,7 +1,7 @@
 import { Routes } from "@angular/router";
 import { PlaygroundRoutes } from "../core/constants/playgroud-routes";
 import { PublicGuard } from "../core/guards/public.guard";
-import { AboutMeComponent } from "./about-me/about-me.component";
+import { AboutMeComponent } from "./about-me/about-me/about-me.component";
 import { AngularAnimationsComponent } from "./angular/angular-animations/angular-animations.component";
 import { AngularComponentsComponent } from "./angular/angular-components/angular-components.component";
 import { AngularPipesComponent } from "./angular/angular-pipes/angular-pipes.component";

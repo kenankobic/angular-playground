@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Angular",
+        "level": 90
+    },
+    {
+        "title": "React",
+        "level": 60
+    },
+    {
+        "title": "NodeJS",
+        "level": 45
+    },
+    {
+        "title": "Java (Spring Boot)",
+        "level": 30
+    }
+]

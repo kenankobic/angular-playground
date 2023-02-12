@@ -1,0 +1,22 @@
+[
+    {
+        "title": "ABOUT_ME.INTERN",
+        "subtitle": "2016 - 2017",
+        "description": "ABOUT_ME.INTERN_DESCRIPTION"
+    },
+    {
+        "title": "ABOUT_ME.FULL_STACK_DEVELOPER",
+        "subtitle": "2017 - 2018",
+        "description": "ABOUT_ME.FULL_STACK_DEVELOPER_DESCRIPTION"
+    },
+    {
+        "title": "ABOUT_ME.FRONTEND_DEVELOPER",
+        "subtitle": "ABOUT_ME.FRONTEND_DEVELOPER_DURATION",
+        "description": "ABOUT_ME.FRONTEND_DEVELOPER_DESCRIPTION"
+    },
+    {
+        "title": "ABOUT_ME.PROJECT_MANAGER",
+        "subtitle": "ABOUT_ME.PROJECT_MANAGER_DURATION",
+        "description": "ABOUT_ME.PROJECT_MANAGER_DESCRIPTION"
+    }
+]

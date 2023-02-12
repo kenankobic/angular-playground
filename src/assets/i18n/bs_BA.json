@@ -41,5 +41,65 @@
     "FADE_IN_OUT_ANIMATION": "FadeInOut animacija",
     "FADE_IN_OUT_ANIMATION_DESCRIPTION": "Koristi se za smooth fade animaciju pri učitavanju stranice.",
     "TOGGLE_FADE_IN_OUT_ANIMATION": "Toggle fadeInOutAnimation"
+  },
+  "ABOUT_ME": {
+    "INTRO": "Vrijedan i odgovoran programer sa 6 godina profesionalnog iskustva u izradi web aplikacija. Vješt u razvoju frontenda, posebno Angulara. Ima iskustva sa ReactJS i NodeJS. Zainteresovan za sticanje znanja i razvoj vještina u različitim oblastima IT-a. Posjeduje odlične vještine timskog rada stečene radom na brojnim timskim projektima. Uvijek pokušava ohrabriti druge, održava tim motiviranim. Brzo uči, uživa u istraživanju, rješavanju problema i pronalaženju načina za poboljšanje rada.",
+    "SKILLS": "Vještine",
+    "EXPERIENCE": "Iskustvo",
+    "INTERN": "Pripravnik",
+    "INTERN_DESCRIPTION": "Radio u malom timu od tri osobe. Razvijao web aplikaciju za praćenje vremena i zakazivanje događaja koristeći MeteorJS.",
+    "FULL_STACK_DEVELOPER": "Full stack developer",
+    "FULL_STACK_DEVELOPER_DESCRIPTION": "Razvio web aplikaciju koja pomaže menadžmentu ljudskih resursa da procijeni i ocijeni vještine potencijalnih i trenutnih zaposlenika. Aplikaciju razvijao koristeći PHP, Drupal, Laravel, MySQL.",
+    "FRONTEND_DEVELOPER": "Frontend developer",
+    "FRONTEND_DEVELOPER_DURATION": "2018 - Trenutno",
+    "FRONTEND_DEVELOPER_DESCRIPTION": "Razvio razne poslovne i e-commerce web aplikacije. Aplikacije razvijao u sljedećim tehnologijama: Angular, Java Spring Boot, Postgres, React, NodeJS, MongoDB.",
+    "PROJECT_MANAGER": "Projekt menadžer",
+    "PROJECT_MANAGER_DURATION": "2022 - Trenutno",
+    "PROJECT_MANAGER_DESCRIPTION": "Odgovoran za vođenje i nadgeldanje projekta, kao i rad na frontendu, vođenje tima od 4 osobe, komunikaciju sa klijentima, pisanje taskova i dokumentacije. Radio u sljedećim tehnologijama: AngularJS, Angular, Java Spring Boot, Postgres, AWS.",
+    "PROJECTS": "Projekti"
+  },
+  "PROJECTS": {
+    "PAYUNITED": {
+      "TITLE": "PayUnited",
+      "URL": "https://payunited.eu/",
+      "DESCRIPTION": "Sistem zasnovan na pretplati koji pruža jednostavne opcije plaćanja za različite usluge kao što su stanice za autopraonice i automati za prodaju. Odgovoran za upravljanje projektom, vođenje tima od 4 osobe, komunikaciju s klijentima, pisanje zadataka i dokumentacije, DevOps, te prepisivanje AngularJS aplikacije na Angular."
+    },
+    "IWMIS": {
+      "TITLE": "Informacioni Sistem Upravljanja Otpadom Republike Srpske (IWMIS)",
+      "DESCRIPTION": "Aplikacija za praćenje tokova otpada za Fond za zaštitu životne sredine i energetsku efikasnost Republike Srpske. Odgovoran za izgradnju i dizajn frontend aplikacije koristeći Angular."
+    },
+    "EIS_CC": {
+      "TITLE": "Informacijski Sistem Okoliša Za Klimatske Promjene (EIS-CC)",
+      "URL": "https://www.klimatskepromjenefbih.ba/",
+      "DESCRIPTION": "Sveobuhvatna web platforma za praćenje i evaluaciju podataka iz oblasti klimatskih promjena za Bosnu i Hercegovinu. Odgovoran za izgradnju i dizajn frontend aplikacije koristeći Angular."
+    },
+    "WMS": {
+      "TITLE": "Informacioni Sistem Upravljanja Otpadom Federacije BiH (WMS)",
+      "URL": "https://www.otpadfbih.ba/",
+      "DESCRIPTION": "Aplikacija za praćenje tokova otpada za Fond za zaštitu okoliša Federacije Bosne i Hercegovine. Odgovoran za izgradnju i dizajn frontend aplikacije koristeći Angular. Radio je na izgradnji nekoliko API servisa i ispravljanju grešaka na backendu koristeći Javu i Spring Boot sa Postgresom."
+    },
+    "WSH": {
+      "TITLE": "Eurobit Web Shop (WSH)",
+      "DESCRIPTION": "Kompletno rješenje koje omogućava upravljanje B2B i B2C prodajom. Odgovoran za izgradnju i dizajn frontend Admin modula i B2B modula koristeći Angular. Radio na nekoliko funkcija za B2C frontend modul. Radio je na izgradnji nekoliko API servisa i ispravljanju grešaka na backendu koristeći Javu i Spring Boot sa Postgresom."
+    },
+    "TAS": {
+      "TITLE": "Sistem raspodjele kamiona (TAS)",
+      "URL": "https://www.amz-tas.ba/",
+      "DESCRIPTION": "Mikroservisni sistem razvijen za ArcelorMittal Zenica koji omogućava lakše praćenje i upravljanje kamionima i robom na terenu. Odgovoran za izgradnju i dizajn frontend aplikacije koristeći Angular."
+    },
+    "FARMASI": {
+      "TITLE": "Farmasi Adria Multi-Level Marketing (MLM)",
+      "URL": "https://klub.farmasi.ba/",
+      "DESCRIPTION": "Kompletno rješenje za upravljanje marketinškim poslovanjem na više nivoa. Odgovoran za izgradnju frontenda koristeći Angular. Napravio nekoliko API servisa na backendu koristeći Javu i Spring Boot sa Postgresom."
+    },
+    "TOTAL_ASSESSMENT": {
+      "TITLE": "TotalAssessment",
+      "URL": "http://www.totalassessment.net/",
+      "DESCRIPTION": "Ekspertski sistem za procjenu profesionalnog potencijala i upravljanje razvojem kadrova. Odgovoran za izgradnju frontend i backend aplikacije koristeći PHP, Drupal, Laravel i MySQL."
+    },
+    "E_COMMERCE": {
+      "TITLE": "E-commerce",
+      "DESCRIPTION": "Napravio nekoliko web aplikacija za e-trgovinu koristeći React, NodeJS, Express i MongoDB."
+    }
   }
 }

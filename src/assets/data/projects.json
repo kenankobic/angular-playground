@@ -1,0 +1,44 @@
+[
+    {
+        "title": "PROJECTS.PAYUNITED.TITLE",
+        "url": "PROJECTS.PAYUNITED.URL",
+        "description": "PROJECTS.PAYUNITED.DESCRIPTION"
+    },
+    {
+        "title": "PROJECTS.IWMIS.TITLE",
+        "description": "PROJECTS.IWMIS.DESCRIPTION"
+    },
+    {
+        "title": "PROJECTS.EIS_CC.TITLE",
+        "url": "PROJECTS.EIS_CC.URL",
+        "description": "PROJECTS.EIS_CC.DESCRIPTION"
+    },
+    {
+        "title": "PROJECTS.WMS.TITLE",
+        "url": "PROJECTS.WMS.URL",
+        "description": "PROJECTS.WMS.DESCRIPTION"
+    },
+    {
+        "title": "PROJECTS.WSH.TITLE",
+        "description": "PROJECTS.WSH.DESCRIPTION"
+    },
+    {
+        "title": "PROJECTS.TAS.TITLE",
+        "url": "PROJECTS.TAS.URL",
+        "description": "PROJECTS.TAS.DESCRIPTION"
+    },
+    {
+        "title": "PROJECTS.FARMASI.TITLE",
+        "url": "PROJECTS.FARMASI.URL",
+        "description": "PROJECTS.FARMASI.DESCRIPTION"
+    },
+    {
+        "title": "PROJECTS.TOTAL_ASSESSMENT.TITLE",
+        "url": "PROJECTS.TOTAL_ASSESSMENT.URL",
+        "description": "PROJECTS.TOTAL_ASSESSMENT.DESCRIPTION"
+    },
+    {
+        "title": "PROJECTS.E_COMMERCE.TITLE",
+        "description": "PROJECTS.E_COMMERCE.DESCRIPTION"
+    }
+]

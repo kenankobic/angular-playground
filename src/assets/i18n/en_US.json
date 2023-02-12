@@ -41,5 +41,65 @@
     "FADE_IN_OUT_ANIMATION": "FadeInOut animation",
     "FADE_IN_OUT_ANIMATION_DESCRIPTION": "Used for a smooth fade animation when loading page.",
     "TOGGLE_FADE_IN_OUT_ANIMATION": "Toggle fadeInOutAnimation"
+  },
+  "ABOUT_ME": {
+    "INTRO": "Hard-working and passionate software developer with 6 years of professional experience building web applications. Proficient in frontend development, particularly Angular. Has experience with ReactJS and NodeJS. Interested in acquiring knowledge and developing skills in various fields of IT. Has excellent teamwork skills acquired through working on numerous team projects. Always tries to encourage others, keeps team motivated. Quick learner, enjoys researching, solving problems and figuring out ways to improve work.",
+    "SKILLS": "Skills",
+    "EXPERIENCE": "Experience",
+    "INTERN": "Intern",
+    "INTERN_DESCRIPTION": "Worked on a small team of three people. Developed a web application for tracking time and scheduling events using MeteorJS.",
+    "FULL_STACK_DEVELOPER": "Full stack developer",
+    "FULL_STACK_DEVELOPER_DESCRIPTION": "Developed a web application for helping HR management to assess and evaluate potential and current employees’ skills. Worked in PHP, Drupal, Laravel, MySQL.",
+    "FRONTEND_DEVELOPER": "Frontend developer",
+    "FRONTEND_DEVELOPER_DURATION": "2018 - Current",
+    "FRONTEND_DEVELOPER_DESCRIPTION": "Developed various business and e-commerce web applications. Worked in Angular, Java Spring Boot, Postgres, React, NodeJS, MongoDB.",
+    "PROJECT_MANAGER": "Project manager",
+    "PROJECT_MANAGER_DURATION": "2022 - Current",
+    "PROJECT_MANAGER_DESCRIPTION": "Responsible for managing and overseeing the project, as well as working on the frontend, leading a team of 4 people, communicating with clients, writing tasks and documentation. Worked in AngularJS, Angular, Java Spring Boot, Postgres, AWS.",
+    "PROJECTS": "Projects"
+  },
+  "PROJECTS": {
+    "PAYUNITED": {
+      "TITLE": "PayUnited",
+      "URL": "https://payunited.eu/",
+      "DESCRIPTION": "A subscription based system that provides easy payment options for various services such as car washing stations and vending machines. Responsible for managing the project, leading a team of 4 people, communicating with clients, writing tasks and documentation, DevOps, and rewriting AngularJS app to Angular."
+    },
+    "IWMIS": {
+      "TITLE": "Integrated Waste Management Information System (IWMIS)",
+      "DESCRIPTION": "Waste flow tracking application for the Environmental Protection and Energy Efficiency Fund of the Republic of Srpska. Responsible for building and designing the frontend application using Angular."
+    },
+    "EIS_CC": {
+      "TITLE": "Environmental Information System - Climate Change (EIS-CC)",
+      "URL": "https://www.klimatskepromjenefbih.ba/",
+      "DESCRIPTION": "A comprehensive web platform for monitoring and evaluation of data in the field of climate change for Bosnia & Herzegovina. Responsible for building and designing the frontend application using Angular."
+    },
+    "WMS": {
+      "TITLE": "Waste Management System (WMS)",
+      "URL": "https://www.otpadfbih.ba/",
+      "DESCRIPTION": "Waste flow tracking application for the Environmental Fund of the Federation of Bosnia and Herzegovina. Responsible for building and designing the frontend application using Angular. Worked on building a small amount of API services and fixing bugs on backend using Java and Spring Boot with Postgres."
+    },
+    "WSH": {
+      "TITLE": "Eurobit Web Shop (WSH)",
+      "DESCRIPTION": "Complete solution enabling management of B2B and B2C sales. Responsible for building and designing the frontend Admin module and B2B module using Angular. Worked on several features for the B2C frontend module. Worked on building a small amount of API services and fixing bugs on backend using Java and Spring Boot with Postgres."
+    },
+    "TAS": {
+      "TITLE": "Truck Allotment System (TAS)",
+      "URL": "https://www.amz-tas.ba/",
+      "DESCRIPTION": "Microservice-based system developed for ArcelorMittal Zenica enabling easier tracking and management of trucks and goods within grounds. Responsible for building and designing the frontend application using Angular."
+    },
+    "FARMASI": {
+      "TITLE": "Farmasi Adria Multi-Level Marketing (MLM)",
+      "URL": "https://klub.farmasi.ba/",
+      "DESCRIPTION": "Complete solution for the management of a multi-level marketing business. Responsible for building the frontend using Angular. Built several API services on the backend using Java and Spring Boot with Postgres."
+    },
+    "TOTAL_ASSESSMENT": {
+      "TITLE": "TotalAssessment",
+      "URL": "http://www.totalassessment.net/",
+      "DESCRIPTION": "An expert system for assessment of professional potential and management of personnel development. Responsible for building the frontend and backend application using PHP with Drupal, Laravel and MySQL."
+    },
+    "E_COMMERCE": {
+      "TITLE": "E-commerce",
+      "DESCRIPTION": "Built several e-commerce web applications using React, NodeJS, Express and MongoDB."
+    }
   }
 }

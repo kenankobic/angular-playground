@@ -14,6 +14,9 @@
     .heading-3 {
         @apply text-xl mt-1 mb-4 text-neutral-400;
     }
+    .subheading {
+        @apply text-sm text-neutral-500
+    }
     .paragraph {
         @apply text-justify pb-1;
     }

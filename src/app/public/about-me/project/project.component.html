@@ -1,0 +1,11 @@
+<div class="flex justify-start items-start">
+    <div class="heading-3 w-1/6">
+        {{ project.title | translate }}
+        <div *ngIf="project.url" class="subheading">
+            <a [href]="project.url | translate" target="_blank" class="hover:text-indigo-500 duration-200">{{ project.url | translate }}</a>
+        </div>
+    </div>
+    <div class="paragraph w-5/6">
+        {{ project.description | translate }}
+    </div>
+</div>
