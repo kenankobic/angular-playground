@@ -1,0 +1,14 @@
+<div class="border border-neutral-500 rounded px-6 py-4 h-full hover:border-neutral-200 duration-200">
+    <div #widgetHeader class="py-2 text-xl font-semibold text-indigo-400">
+        <ng-container [ngTemplateOutlet]="headerTemplate || defaultWidgetHeader"></ng-container>
+        <ng-template #defaultWidgetHeader>
+            <div>Weather Forecast</div>
+        </ng-template>
+    </div>
+    <div #widgetContent class="py-2">
+        <ng-container [ngTemplateOutlet]="contentTemplate || defaultWidgetContent"></ng-container>
+        <ng-template #defaultWidgetContent>
+            <div>Temperature: 18C</div>
+        </ng-template>
+    </div>
+</div>

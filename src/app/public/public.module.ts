@@ -15,6 +15,7 @@ import { AngularAnimationsComponent } from './angular/angular-animations/angular
 import { ExperienceComponent } from './about-me/experience/experience.component';
 import { SkillComponent } from './about-me/skill/skill.component';
 import { ProjectComponent } from './about-me/project/project.component';
+import { WeatherCardComponent } from './homepage/weather-card/weather-card.component';
 
 
 
@@ -35,6 +36,7 @@ import { ProjectComponent } from './about-me/project/project.component';
     ExperienceComponent,
     SkillComponent,
     ProjectComponent,
+    WeatherCardComponent,
   ],
   imports: [
     SharedModule
